@@ -1,0 +1,22 @@
+body
+{
+    font-family: cursive;
+    background-color:#EEEEEE;
+}
+hr{
+    border: none;
+    
+    border-top-style: dotted;
+    border-color: #549183;
+    border-width: 5px;
+    width: 3%;
+
+}
+img
+{
+    height: 200px;
+}
+h1,h3{
+    color: #66bfbf ;
+}
+
