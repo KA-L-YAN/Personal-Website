@@ -1,22 +1,124 @@
+
+*
+{
+    box-sizing: border-box;
+}
 body
 {
-    font-family: cursive;
-    background-color:#EEEEEE;
+    margin: 5px 5px;
+    padding: 0;
+    font-family : cursive;
+    /*background-image: url("design\ 7.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position-x: 350px;
+    background-color:#ffffff;*/
 }
-hr{
-    border: none;
-    
-    border-top-style: dotted;
-    border-color: #549183;
-    border-width: 5px;
-    width: 3%;
-
-}
-img
+.pk
 {
-    height: 200px;
+    background: #ffffff;
+    background: -webkit-linear-gradient(to right,#00ffed,#0088ba); 
+    background: linear-gradient(to right, #00ffed,#0088ba);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip:text;
+    text-transform: uppercase;
+    
 }
-h1,h3{
-    color: #66bfbf ;
+h1,h3,h2{
+    /*color: #66bfbf ;*/
+    color: rgb(0, 0, 0);
+}
+.grid-wrapper-icons
+{
+    justify-items: center;
+    display:grid;
+    gap: 0.1rem;
+    grid-row-gap: 3rem;
+    margin: 1rem 10%;
+    padding: 10px;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.grid-wrapper-icons .image
+{
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    align-self: center;
+    
+}
+.image img{
+    max-width: 180px;
+    max-height: 150px;
 }
 
+hr 
+{
+    height: 8px;
+    width: 80px;
+    border-radius: 10px;
+    border: 0;
+    margin: 10px auto;
+    background: #ffffff;
+    background: -webkit-linear-gradient(to right, #f6ff00, #00ff1e);
+    background: linear-gradient(to right, #f6ff00, #00ff1e);
+}
+.intro
+{
+    display: table;
+    grid-template-columns: repeat(2,1fr);
+}
+.row
+{
+    display: table-row;
+}
+.pic,.greeting
+{
+    display:table-cell;
+    vertical-align: middle;
+    padding:5% 10px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    justify-content: center;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+#skills
+{
+    text-align: center;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.design-1
+{
+    max-width: 180px;
+    max-height: 180px;
+    position:absolute;
+    left:12.5in;
+}
+#img-2
+{
+    position:absolute;
+    max-width: 250px;
+    max-height: 250px;
+    margin-left:10px;
+    
+}
+#img-3
+{
+    position:absolute;
+    max-width: 250px;
+    max-height: 250px;
+    left: 12in;
+}
