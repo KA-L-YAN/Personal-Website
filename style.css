@@ -182,6 +182,7 @@ hr
     }
     #img-3
     {
+        position:absolute;
         max-width: 20%;
         max-height: 20%;
         left: 75%;
