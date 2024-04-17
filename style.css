@@ -172,7 +172,7 @@ hr
     {
         max-width: 20%;
         max-height: 20%;
-        left: 85%;
+        left: 75%;
     }
     #img-2
     {
@@ -184,7 +184,7 @@ hr
     {
         max-width: 20%;
         max-height: 20%;
-        left: 50%;
+        left: 75%;
     }
     .pic img
     {
@@ -196,6 +196,6 @@ hr
     }
     #im img
     {
-    height: 25px;
+    height: 35px;
     }
 }
