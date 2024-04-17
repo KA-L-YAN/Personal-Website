@@ -130,7 +130,7 @@ hr
 {
     .body
     {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: monospace;
         font-size: 16px;
     }
     .grid-wrapper-icons
@@ -141,7 +141,7 @@ hr
     {
         display: block;
     }
-    .pic,.greeting
+    .pic.greeting
     {
         display: block;
         text-align: center;
@@ -150,7 +150,7 @@ hr
     .pic img
     {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
     .design-1
     {
