@@ -154,14 +154,20 @@ hr
     }
     .design-1
     {
-        left: 5%;
+        max-width: 20%;
+        max-height: 20%;
+        left: 85%;
     }
     #img-2
     {
+        max-width: 20%;
+        max-height: 20%;
         left: 2%;
     }
     #img-3
     {
+        max-width: 20%;
+        max-height: 20%;
         left: 50%;
     }
 }
