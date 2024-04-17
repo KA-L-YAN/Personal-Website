@@ -79,7 +79,18 @@ hr
     vertical-align: middle;
     padding:5% 10px;
 }
-
+.pic img
+{
+    height: 200px;
+}
+#im
+{
+    font-size: 40px;
+}
+#im img
+{
+    height: 45px;
+}
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -128,6 +139,7 @@ hr
 }
 @media only screen and (max-width: 768px)
 {
+
     *
     {
         font-family: monospace;
@@ -173,5 +185,17 @@ hr
         max-width: 20%;
         max-height: 20%;
         left: 50%;
+    }
+    .pic img
+    {
+    height: 100px;
+    }
+    #im
+    {
+    font-size: 30px;
+    }
+    #im img
+    {
+    height: 25px;
     }
 }
