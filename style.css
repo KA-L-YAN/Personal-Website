@@ -172,7 +172,7 @@ hr
 	margin: 10px auto 0;
 	width: 220px;
 	height: 100px;
-	background: linear-gradient(45deg, #5cec617c, #00d0ff5b); 
+	background: linear-gradient(45deg, #ffffff7c, #d6d6d65b); 
     border-radius: 45% 55% 51% 49% / 87% 20% 80% 13%  ;
 }
 
@@ -181,7 +181,7 @@ hr
 	position: absolute;
 	left: -2px;
 	top: -2px;
-	background: linear-gradient(45deg, #4dff39, #ffffff, #13cae2, #ffffff);
+	background: linear-gradient(45deg, #0fff47, #ffffff,#ff0000, #13cae2, #e3f24197);
     border-radius: 45% 55% 51% 49% / 87% 20% 80% 13%  ;
 	background-size: 400%;
 	width: calc(100% + 4px);
