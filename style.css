@@ -330,4 +330,8 @@ hr
     {
     height: 35px;
     }
+    .projects
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
 }
