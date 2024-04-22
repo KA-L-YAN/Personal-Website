@@ -315,11 +315,6 @@ hr
     {
     height: 35px;
     }
-    .social
-    {
-        position:inherit;
-        z-index: 0;
-    }
     .projects
     {
         font-family: monospace;
