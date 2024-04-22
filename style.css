@@ -214,21 +214,6 @@ hr
 .block:after {
 	filter: blur(5px);
 }
-
-
-.stylish-underline::after {
-    background-image: url(images/underline-3.png);
-    background-repeat: no-repeat;
-    background-size: 88% 80%;
-    content: "";
-    display: block;
-    height: 1.2em;
-    left: 0.2em;
-    position: absolute;
-    width: calc(100% + 2em);
-    top: 30px;
-}
-
 .pages
 {
     position:absolute;
