@@ -318,10 +318,10 @@ hr
     .social
     {
         position: relative;
-        z-index: -1;
     }
     .projects
     {
+        font-family: monospace;
         grid-template-columns: repeat(1,1fr);
     }
 }
