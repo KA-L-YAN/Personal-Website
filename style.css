@@ -317,7 +317,7 @@ hr
     }
     .social
     {
-        position: relative;
+        position:inherit;
         z-index: 0;
     }
     .projects
