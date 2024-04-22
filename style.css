@@ -318,6 +318,7 @@ hr
     .social
     {
         position: relative;
+        z-index: 1;
     }
     .projects
     {
