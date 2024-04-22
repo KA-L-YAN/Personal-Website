@@ -315,8 +315,14 @@ hr
     {
     height: 35px;
     }
+    .s
     .projects
     {
         grid-template-columns: repeat(1,1fr);
+    }
+    .social
+    {
+        position: relative;
+        z-index: -1;
     }
 }
