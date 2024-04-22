@@ -71,16 +71,13 @@ a {
         right: 10px;
         z-index: 1; /* Lower z-index to avoid interference */
     }
-    
     .social ul {
         transform: translate(0, 0); /* Ensure it doesn't overlap other content */
     }
-    
     .social ul li {
         width: 50px; /* Make the social bar narrower */
         text-align: center; /* Center-align the icons */
     }
-    
     .social ul li:hover {
         transform: none; /* Remove hover effect on smaller screens */
     }
