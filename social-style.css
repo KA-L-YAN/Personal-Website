@@ -78,6 +78,9 @@ a {
         width: 50px; /* Make the social bar narrower */
         text-align: center; /* Center-align the icons */
     }
+    .social ul li span {
+      display: none; /* Hide the text on smaller screens */
+  }
     .social ul li:hover {
         transform: none; /* Remove hover effect on smaller screens */
     }
