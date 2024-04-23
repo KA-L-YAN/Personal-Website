@@ -75,7 +75,7 @@ a {
         transform: translate(0, 0); /* Ensure it doesn't overlap other content */
     }
     .social ul li {
-        width: 10px; /* Make the social bar narrower */
+        width: 50px; /* Make the social bar narrower */
         text-align: center; /* Center-align the icons */
     }
     .social ul li span {
