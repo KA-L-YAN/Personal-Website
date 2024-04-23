@@ -67,7 +67,6 @@ a {
 {
   .social {
         top: auto; /* Adjust positioning for smaller screens */
-        bottom: 0;
         right: 3%;
         z-index: 1; /* Lower z-index to avoid interference */
     }
