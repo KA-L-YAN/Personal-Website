@@ -85,7 +85,6 @@
 }
 .info
 {
-    margin-top: 1%;
     display: flex;
     align-items: center;
     padding: 25px;
@@ -120,4 +119,39 @@
 {
     font-weight: 500;
     margin-bottom: -5px;
+}
+.navbar
+{
+    box-sizing: border-box;
+    text-align: right;
+   /*box-shadow: 0 1px 4px rgb(146 161 176 / 15%);*/
+}
+.a 
+{
+    color: #999999;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .25em;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+.a:hover::after 
+{
+    width: 100%;
+    left: 0;
+}
+  
+.a::after 
+{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    right: 0;
+    position: absolute;
+    background: linear-gradient(to right, #000000, #ffffff 100%);
+    transition: width .5s ease 0s, right .5s ease 0s;
+    width: 0;
 }
