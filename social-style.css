@@ -20,7 +20,7 @@ a {
   }
   .social {
     position: fixed;
-    top:255px;
+    top:40%;
     right: 0;
   }
   .social ul {
