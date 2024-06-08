@@ -19,7 +19,7 @@ a {
     font-weight:bold;
   }
   .social {
-    position: fixed;
+    position:fixed;
     top:40%;
     right: 0;
   }

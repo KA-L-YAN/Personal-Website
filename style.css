@@ -295,12 +295,14 @@ hr
         max-width: 20%;
         max-height: 20%;
         left: 75%;
+        position:absolute ;
     }
     #img-2
     {
         max-width: 20%;
         max-height: 20%;
         left: 2%;
+        position:absolute;
     }
     #img-3
     {
