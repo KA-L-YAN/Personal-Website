@@ -70,7 +70,7 @@
 } */
 .details
 {
-    position: relative;
+    position: inherit;
     margin-top: 14px;
     padding-top: -14px;
     justify-items: center;
