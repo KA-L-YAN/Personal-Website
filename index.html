@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Kalyan</title>
     <link rel="icon" href="crop-cut-DP.png" type="image/png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
 
 </head>
 
 <body>
-    <img src="design 5.png" id="img-3" alt="design">
+    
+    <!-- <img src="design 5.png" id="img-3" alt="design"> -->
     <link rel="stylesheet" href="style.css">
     <div class="intro" cellspacing="20">
+        <div id="lottie-animation"></div>
+
         <div class="row">
             <div class="pic"><img src="crop-cut-DP.png" alt="Profile Picture"></div>
             <div class="greeting">
@@ -23,8 +27,10 @@
                     <img src="Hi.png" alt="Hi">
                 </h1>
             </div>
+            
         </div>
     </div>
+    
     <hr>
     <h2 style="text-align: center; font-size: 30px;"><span class="skills">My Portfolio</span></h2>
     <div class="projects">
@@ -171,6 +177,18 @@
                         class="fa fa-instagram"></i><span> Instagram</span></a></li> -->
         </ul>
     </nav>
+
+
+    <script>
+        // Initialize the Lottie animation
+        var animation = lottie.loadAnimation({
+            container: document.getElementById('lottie-animation'), // the DOM element
+            renderer: 'svg', // the renderer type ('svg', 'canvas', or 'html')
+            loop: true, // should the animation loop
+            autoplay: true, // should the animation start automatically
+            path: 'Animation-6.json' // the path to the animation JSON file
+        });
+    </script>
 </body>
 
 </html>

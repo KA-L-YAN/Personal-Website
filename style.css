@@ -52,6 +52,14 @@ h1,h3,h2{
     max-width: 180px;
     max-height: 150px;
 }
+#lottie-animation
+{
+    position:absolute;
+    max-width: 350px;
+    max-height: 350px;
+    left: 70%;
+    z-index: -1;
+}
 
 hr 
 {
@@ -73,7 +81,13 @@ hr
 {
     display: table-row;
 }
-.pic,.greeting
+.cell{
+    display: table-cell;
+    vertical-align: middle;
+    justify-content: right;
+    text-align: right;
+}
+.pic,.greeting,.cell
 {
     display:table-cell;
     vertical-align: middle;
