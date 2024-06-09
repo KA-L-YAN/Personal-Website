@@ -278,16 +278,32 @@ hr
 
     *
     {
-        font-family: monospace;
+        font-family:monospace;
+        font-weight: 400;
     }
     .body
     {
         font-family: monospace;
         font-size: 16px;
     }
+    #lottie-animation
+    {
+        transform: scale(0.75);
+        left: 53%;
+        top:185%;
+    }
     .grid-wrapper-icons
     {
-        grid-template-columns: repeat(1,1fr);
+        gap: 5px;
+        grid-row-gap: 5px;
+        margin-left: 2%;
+        padding: 10px; 
+        grid-template-columns: repeat(2,1fr);
+    }
+    .grid-wrapper-icons img, .grid-wrapper-icons div
+    { 
+        transform: scale(0.75);
+        transform-origin: center center;
     }
     .intro
     {
@@ -342,6 +358,13 @@ hr
     .projects
     {
         font-family: monospace;
-        grid-template-columns: repeat(1,1fr);
+        transform: scale(0.70);
+        gap: 50px;
+        grid-row-gap: 60px;
+        margin-left: -10%;
+        padding: 10px; 
+        margin-top: -15%;
+        margin-bottom: -12%;
+        grid-template-columns: repeat(2,1fr);
     }
 }
